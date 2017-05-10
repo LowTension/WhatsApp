@@ -110,6 +110,9 @@ public class LoginActivity extends AppCompatActivity {
                     };
 
                     firebase.addListenerForSingleValueEvent(valueEventListenerUsuario);
+                    Preferencias preferencias = new Preferencias(LoginActivity.this);
+                    preferencias.salvarDados(identificadorUsuarioLogado,
+                            task.getResult().getUser().getDisplayName());
 
 
                     abrirTelaPrincipal();
