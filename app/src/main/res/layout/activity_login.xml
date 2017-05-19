@@ -7,24 +7,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="br.com.whatsappandroid.cursoandroid.whatsapp.activity.LoginActivity"
     android:background="@color/colorPrimary"
-    android:gravity="center_vertical|center_horizontal">
+    android:gravity="center_vertical|center_horizontal"
+    tools:context="br.com.whatsappandroid.cursoandroid.whatsapp.activity.LoginActivity">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="@dimen/largura_logo"
         android:layout_height="@dimen/altura_logo"
-        android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/logo" />
 
     <EditText
+        android:id="@+id/edit_login_email"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/edit_login_email"
         android:layout_below="@+id/imageView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -32,21 +32,21 @@
         android:hint="Digite o seu email" />
 
     <EditText
+        android:id="@+id/edit_login_senha"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/edit_login_senha"
         android:layout_below="@+id/edit_login_email"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:hint="Digite a sua senha" />
 
     <Button
+        android:id="@+id/bt_logar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/botao_logar"
-        android:id="@+id/bt_logar"
         android:layout_below="@+id/edit_login_senha"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -54,11 +54,11 @@
         android:theme="@style/botaoPadrao"/>
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/texto_cadastre"
-        android:id="@+id/textView"
         android:layout_below="@+id/bt_logar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"

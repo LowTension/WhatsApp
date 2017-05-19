@@ -16,14 +16,14 @@
     <item android:id="@+id/item_pesquisa"
         android:title="Pesquisar"
         android:orderInCategory="300"
-        app:showAsAction="ifRoom"
         android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"
         />
 
     <item android:id="@+id/item_adicionar"
         android:title="Adicionar"
         android:orderInCategory="400"
-        app:showAsAction="ifRoom"
         android:icon="@drawable/ic_person_add"
+        app:showAsAction="ifRoom"
         />
 </menu>

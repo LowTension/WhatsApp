@@ -9,10 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import br.com.whatsappandroid.cursoandroid.whatsapp.R;
-import br.com.whatsappandroid.cursoandroid.whatsapp.activity.ConversaActivity;
 import br.com.whatsappandroid.cursoandroid.whatsapp.helper.Preferencias;
 import br.com.whatsappandroid.cursoandroid.whatsapp.model.Mensagem;
 
